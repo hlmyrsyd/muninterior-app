@@ -1,11 +1,30 @@
 .hero {
-    padding: 3rem 0;
+    padding: 30rem 0 0 0;
+    margin: 0;
+
 }
 
 .hero-text {
     text-align: left;
 }
 
-.btn {
-    
+.hero-text h1 {
+    font-size: 3rem;
+}
+
+.hero-text a {
+    font-size: 1rem;
+}
+
+.hero-text .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.hero-text .btn:hover {
+    background-color: #555;
 }
