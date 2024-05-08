@@ -1,0 +1,22 @@
+.portfolio {
+    margin: 50px;
+}
+
+.portfolio h1 {
+    text-align: left;
+}
+
+.project-cards {
+    display: flex; /* Use flexbox to create a row layout */
+    justify-content: space-between; /* Distribute space between items */
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio {
+        margin: 20px;
+    }
+
+    .project-cards {
+        gap: 10px;
+    }
+}

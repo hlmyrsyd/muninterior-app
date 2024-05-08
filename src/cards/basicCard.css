@@ -1,0 +1,41 @@
+.basic-card {
+    display: flex;
+    flex-direction: column; /* Arrange content vertically */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px; /* Add margin around each card */
+}  
+
+.basic-card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.basic-card div {
+    padding: 20px;
+}
+
+.basic-card h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.basic-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+@media screen and (max-width: 768px) {
+    .basic-card {
+        margin: 0px;
+    }
+
+    .basic-card .content {
+        margin: 0;
+        padding: 0;
+    }
+}
