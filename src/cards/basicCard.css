@@ -1,16 +1,20 @@
 .basic-card {
     display: flex;
-    flex-direction: column; /* Arrange content vertically */
-    border: 1px solid #ccc;
-    border-radius: 10px;
+    flex-direction: column;
     overflow: hidden;
-    margin: 10px; /* Add margin around each card */
 }  
 
 .basic-card img {
-    height: 100%;
-    width: 100%;
+    height: 30rem;
+    width: 30rem;
     object-fit: cover;
+    filter: grayscale();
+    transition: filter 0.3s ease-in-out;
+}
+
+.basic-card img:hover {
+    filter: grayscale(0);
+    cursor: pointer;
 }
 
 .basic-card div {
@@ -30,12 +34,12 @@
 }
 
 @media screen and (max-width: 768px) {
-    .basic-card {
+    /* .basic-card {
         margin: 0px;
     }
 
     .basic-card .content {
         margin: 0;
         padding: 0;
-    }
+    } */
 }

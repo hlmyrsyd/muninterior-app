@@ -6,7 +6,7 @@ import './Portfolio.css'
 function Portfolio() {
     return (
         <div className='project'>
-            <div className='project-header'>
+            <div className='project-header' id='portfolio'>
                 <h1>Projects</h1>
             </div>
             <div className='project-cards'>
@@ -20,6 +20,8 @@ function Portfolio() {
                 location='Medan'
                 imageUrl='/assets/project2.webp'
                 />
+            </div>
+            <div className='project-cards'>
                 <BasicCard 
                 title='Project 1'
                 location='Medan'

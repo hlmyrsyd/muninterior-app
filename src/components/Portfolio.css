@@ -1,22 +1,21 @@
-.portfolio {
-    margin: 50px;
+.project-header h1 {
+    text-align: left;
+    font-weight: 400;
+    font-size: 3rem;
+    margin: 0 0 10px 0;
 }
 
-.portfolio h1 {
-    text-align: left;
+.project-header {
+    border-bottom: 1px solid #666;
+    margin-bottom: 10px;
 }
 
 .project-cards {
-    display: flex; /* Use flexbox to create a row layout */
-    justify-content: space-between; /* Distribute space between items */
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px; 
 }
 
 @media screen and (max-width: 768px) {
-    .portfolio {
-        margin: 20px;
-    }
-
-    .project-cards {
-        gap: 10px;
-    }
+    /* On small screens, we want the project title to be on its own line */
 }
