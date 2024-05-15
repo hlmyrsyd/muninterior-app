@@ -1,0 +1,11 @@
+.contact-header h1 {
+    text-align: left;
+    font-weight: 400;
+    font-size: 3rem;
+    margin: 0 0 10px 0;
+}
+
+.contact-header {
+    border-bottom: 1px solid #666;
+    margin-bottom: 10px;
+}
