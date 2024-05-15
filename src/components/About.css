@@ -1,0 +1,42 @@
+.about-header h1 {
+    text-align: left;
+    font-weight: 400;
+    font-size: 3rem;
+    margin: 0 0 10px 0;
+}
+
+.about-header {
+    border-bottom: 1px solid #666;
+    margin-bottom: 10px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-text {
+    gap: 2rem;
+    width: 60rem;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-text a {
+    text-align: left;
+    text-decoration: none;
+    color: #666;
+    transition: ease-in-out .3s;
+}
+
+.content-text a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.content-text li, p {
+    font-size: 1.5rem;
+    text-align: left;
+    color: #555;
+}

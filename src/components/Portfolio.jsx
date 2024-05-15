@@ -33,6 +33,9 @@ function Portfolio() {
                 imageUrl='/assets/project4.webp'
                 />
             </div>
+            {/* <div className='more'>
+                <h2>See More</h2>
+            </div> */}
         </div>
     );
 }
