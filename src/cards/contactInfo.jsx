@@ -3,7 +3,7 @@ import './contactInfo.css'
 
 function ContactInfo({ iconClass, title, caption, info}) {
     return (
-        <div className='Info-card'>
+        <div className='info-card'>
             <div className='icon'>
                 <i className={iconClass}></i></div>
             <div className='card-contact'>

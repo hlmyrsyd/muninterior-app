@@ -12,7 +12,10 @@ function About() {
             </div>
             <div className='about-content'>
                 <div className='content-text'>
-                    <a onClick={() => setShowID(!showID)}>
+                    <a onClick={(e) => {
+                        e.target.classList.toggle('active'); 
+                        setShowID(!showID);
+                    }}>
                         {showID? '- | ' : '+ | '}
                         Interior Design
                     </a>
@@ -27,7 +30,10 @@ function About() {
                             <p>Since quality is our best practice. We make sure everywork is detailed and perfect.</p>
                         </div>
                         }
-                    <a onClick={() => setShow3D(!show3D)}>
+                    <a onClick={(e) => {
+                        e.target.classList.toggle('active');
+                        setShow3D(!show3D);
+                    }}>
                         {show3D? '- | ' : '+ | '}
                         3D Visualization
                     </a>

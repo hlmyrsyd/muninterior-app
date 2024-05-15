@@ -13,9 +13,22 @@ function Contact() {
                 <div className='contact-info'>
                     <ContactInfo 
                     iconClass='fab fa-whatsapp'
-                    title='Chat to us'
+                    title='Chat us'
                     caption='Our Friendly team is here to help'
-                    info='+6161616161'                    />
+                    info='+6161616161'                    
+                    />
+                    <ContactInfo 
+                    iconClass='fab fa-instagram'
+                    title='Follow us'
+                    caption='Check out our daily activity'
+                    info='@muninterior'                    
+                    />
+                    <ContactInfo 
+                    iconClass='fa fa-neuter'
+                    title='Meet us'
+                    caption='We are happy to discuss your needs'
+                    info='Rumah Tjong A Fie, Medan'                    
+                    />
                 </div>
                 <div className='contact-form'>
 

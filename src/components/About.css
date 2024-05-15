@@ -35,6 +35,14 @@
     cursor: pointer;
 }
 
+.content-text a.active {
+    color: black;
+}
+
+.content-text a.active:hover {
+    color: #666;
+}
+
 .content-text li, p {
     font-size: 1.5rem;
     text-align: left;
