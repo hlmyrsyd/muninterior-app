@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 6rem;
   text-align: center;
+  scroll-behavior: smooth;
 }
 
 @media (prefers-reduced-motion: no-preference) {

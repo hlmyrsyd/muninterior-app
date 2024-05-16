@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contact.css'
 import ContactInfo from '../cards/contactInfo';
+import ContactForm from '../cards/contactForm';
 
 function Contact() {
 
@@ -31,7 +32,7 @@ function Contact() {
                     />
                 </div>
                 <div className='contact-form'>
-
+                    <ContactForm />
                 </div>
             </div>
         </div>
