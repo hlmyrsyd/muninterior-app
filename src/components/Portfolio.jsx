@@ -12,25 +12,37 @@ function Portfolio() {
             <div className='project-cards'>
                 <BasicCard 
                 title='Project 1'
-                location='Medan'
+                location='Medan1'
                 imageUrl='/assets/project1.webp'
                 />
                 <BasicCard 
-                title='Project 1'
-                location='Medan'
+                title='Project 2'
+                location='Medan2'
                 imageUrl='/assets/project2.webp'
                 />
             </div>
             <div className='project-cards'>
                 <BasicCard 
-                title='Project 1'
-                location='Medan'
+                title='Project 3'
+                location='Medan3'
                 imageUrl='/assets/project3.webp'
                 />
                 <BasicCard 
-                title='Project 1'
-                location='Medan'
+                title='Project 4'
+                location='Medan4'
                 imageUrl='/assets/project4.webp'
+                />
+            </div>
+            <div className='project-cards'>
+                <BasicCard 
+                title='Project 5'
+                location='Medan5'
+                imageUrl='/assets/project5.webp'
+                />
+                <BasicCard 
+                title='Project 6'
+                location='Medan6'
+                imageUrl='/assets/project6.webp'
                 />
             </div>
             {/* <div className='more'>

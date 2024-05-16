@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4rem 0 -3rem;
+}
+
+.left a {
+    color: black;
+    margin: 0;
+    text-decoration: none;
+    transition: ease-in-out .3s;
+}
+
+.left a:hover {
+    background-color: #333;
+}

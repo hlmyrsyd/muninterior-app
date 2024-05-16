@@ -49,7 +49,7 @@ function About() {
                         }
                     <div className='about-component'>
                         <h1>Why Us?</h1>
-                        <h2>Create a better space. not temporarily, but for life.</h2>
+                        <h2>Create a better space. <br/>not temporarily, but for life.</h2>
                     </div>
                 </div>
             </div>

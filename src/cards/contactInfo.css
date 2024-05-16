@@ -7,13 +7,14 @@
 }
 
 .info-card .icon {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .card-contact {
-    margin-left: 2rem;
+    margin-left: 1rem;
     padding: 0;
-    line-height: 1rem;
+    line-height: .75rem;
+    font-size: .75rem;
 }
 
 .card-contact p {
