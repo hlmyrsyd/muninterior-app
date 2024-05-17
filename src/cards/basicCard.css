@@ -21,14 +21,21 @@
     padding: 20px;
 }
 
+.basic-card .content {
+    display: flex;
+    flex-direction: column;
+    margin: -1rem 0 0 0;
+}
+
 .basic-card h2 {
+    text-align: left;
     margin: 0;
     font-size: 18px;
     color: #333;
 }
 
 .basic-card p {
-    text-align: center;
+    text-align: left;
     margin: 0;
     font-size: 14px;
     color: #666;
