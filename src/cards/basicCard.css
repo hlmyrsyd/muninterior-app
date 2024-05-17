@@ -24,7 +24,8 @@
 .basic-card .content {
     display: flex;
     flex-direction: column;
-    margin: -1rem 0 0 0;
+    margin: .5rem 0 3rem 0;
+    padding: 0;
 }
 
 .basic-card h2 {
