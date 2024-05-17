@@ -13,11 +13,12 @@
 .card-contact {
     margin-left: 1rem;
     padding: 0;
-    line-height: .75rem;
+    line-height: 1.2rem;
     font-size: .75rem;
 }
 
 .card-contact p {
     font-weight: 400;
     color: #666;
+    line-height: 1.5rem;
 }
