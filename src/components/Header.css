@@ -6,6 +6,9 @@
 
 .hero-text {
     text-align: left;
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideIn 3s ease-in-out forwards;
 }
 
 .hero-text h1 {
@@ -29,4 +32,11 @@
 .hero-text .btn:hover {
     background-color: #555;
     cursor: pointer;
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
