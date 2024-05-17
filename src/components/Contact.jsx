@@ -6,7 +6,7 @@ import ContactForm from '../cards/contactForm';
 function Contact() {
 
     return (
-        <div className='contact'>
+        <div className='contact' id='contact'>
             <div className='contact-header'>
                 <h1>Contacts</h1>
             </div>
